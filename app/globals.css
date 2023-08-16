@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+  .hidden-bar {
+    display: none; /* Esconde a barra superior em dispositivos móveis */
+  }
+}

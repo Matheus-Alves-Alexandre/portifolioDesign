@@ -18,7 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Topbar />
+        <div className="max-md:hidden">
+          <Topbar />
+        </div>
+
         {children}
       </body>
     </html>
